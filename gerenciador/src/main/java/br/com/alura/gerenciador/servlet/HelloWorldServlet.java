@@ -15,7 +15,8 @@ public class HelloWorldServlet extends HttpServlet{
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException  {
 		
 		PrintWriter out = resp.getWriter();
+		out.println("<html>");
 		out.println("Parabéns você criou o primeiro servlet.");
-		
+		out.println("</html>");
 	}
 }

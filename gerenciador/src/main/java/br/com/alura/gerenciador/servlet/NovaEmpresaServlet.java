@@ -26,10 +26,10 @@ public class NovaEmpresaServlet extends HttpServlet  {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<html><body> Empresa "+ nomeEmpresa + " cadastrada com sucesso. <br></body>");
-		out.println("<script>alert('Empresa Cadastrada') </script></html>");
+		
 
 		
-		System.out.println("Empresa cadastrada!");
+		
 	}
 
 }

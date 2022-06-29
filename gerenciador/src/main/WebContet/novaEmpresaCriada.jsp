@@ -1,5 +1,8 @@
 <%
-	String nomeEmpresa = "Google";
+
+// scriptlet
+
+	String nomeEmpresa = (String)request.getAttribute("empresa");
 	
 %>
 
